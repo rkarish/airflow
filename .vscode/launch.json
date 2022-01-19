@@ -1,0 +1,80 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Creating Table Test",
+            "type": "python",
+            "request": "launch",
+            "program": ".venv/bin/airflow",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "tasks",
+                "test",
+                "user_processing",
+                "creating_table",
+                "2022-01-01"
+            ],
+        },
+        {
+            "name": "Is API Available Test",
+            "type": "python",
+            "request": "launch",
+            "program": ".venv/bin/airflow",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "tasks",
+                "test",
+                "user_processing",
+                "is_api_available",
+                "2022-01-01"
+            ],
+        },
+        {
+            "name": "Extracting User Test",
+            "type": "python",
+            "request": "launch",
+            "program": ".venv/bin/airflow",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "tasks",
+                "test",
+                "user_processing",
+                "extracting_user",
+                "2022-01-01"
+            ],
+        },
+        {
+            "name": "Processing User Test",
+            "type": "python",
+            "request": "launch",
+            "program": ".venv/bin/airflow",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "tasks",
+                "test",
+                "user_processing",
+                "processing_user",
+                "2022-01-01"
+            ],
+        },
+        {
+            "name": "Storing User Test",
+            "type": "python",
+            "request": "launch",
+            "program": ".venv/bin/airflow",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "tasks",
+                "test",
+                "user_processing",
+                "storing_user",
+                "2022-01-01"
+            ],
+        },
+    ]
+}
