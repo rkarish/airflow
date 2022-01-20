@@ -7,7 +7,6 @@
             "request": "launch",
             "program": ".venv/bin/airflow",
             "console": "integratedTerminal",
-            "justMyCode": true,
             "args": [
                 "tasks",
                 "test",
@@ -22,7 +21,6 @@
             "request": "launch",
             "program": ".venv/bin/airflow",
             "console": "integratedTerminal",
-            "justMyCode": true,
             "args": [
                 "tasks",
                 "test",
@@ -37,7 +35,6 @@
             "request": "launch",
             "program": ".venv/bin/airflow",
             "console": "integratedTerminal",
-            "justMyCode": true,
             "args": [
                 "tasks",
                 "test",
@@ -52,7 +49,6 @@
             "request": "launch",
             "program": ".venv/bin/airflow",
             "console": "integratedTerminal",
-            "justMyCode": true,
             "args": [
                 "tasks",
                 "test",
@@ -67,7 +63,6 @@
             "request": "launch",
             "program": ".venv/bin/airflow",
             "console": "integratedTerminal",
-            "justMyCode": true,
             "args": [
                 "tasks",
                 "test",
